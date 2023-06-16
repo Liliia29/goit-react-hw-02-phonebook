@@ -11,7 +11,7 @@ export const ListItem = styled.li`
     display: flex;
     align-items: center;
     column-gap: 10px;
-    color: white;
+    color: black;
 `;
 
 export const Button = styled.button`
@@ -27,4 +27,5 @@ export const Button = styled.button`
     background-color: white;
     border: 2px solid black;
     border-radius: 4px;
+    cursor: pointer;
 `;
