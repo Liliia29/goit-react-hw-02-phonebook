@@ -23,7 +23,7 @@ export class App extends Component {
   };
 
   handleFormSubmit = contact => {
-    const isInContacts = this.state.contactssome(
+    const isInContacts = this.state.contacts.some(
       ({ name }) => name.toLowerCase() === contact.name.toLowerCase()
     );
     if (isInContacts) {
